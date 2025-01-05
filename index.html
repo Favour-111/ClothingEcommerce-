@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="p-2">
+      <header>
+        <ul class="mt-1">
+          <li>About Us</li>
+          <li>privacy</li>
+          <li>FAQ</li>
+          <li>careers</li>
+        </ul>
+        <div class="left-header">
+          <div>My wishList</div>
+          <div class="opacity-25">|</div>
+          <div>track your order</div>
+          <div class="opacity-25">|</div>
+          <div class="header-icons opacity-75 d-flex gap-3">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </div>
+      </header>
+    </div>
+    <nav class="shadow-sm">
+      <div>
+        <img src="./assets/logo.png.webp" alt="" />
+      </div>
+      <ul class="mt-1">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">shop</a></li>
+        <li><a href="#">pages</a></li>
+        <li><a href="#">contact</a></li>
+        <li><a href="#">blog</a></li>
+      </ul>
+      <div class="icn">
+        <div class="login-signup mx-3">login / Register</div>
+
+        <div class="search">
+          <img
+            src="./assets/icons/icons8-search-100.png"
+            class="nav-icons"
+            alt=""
+          />
+        </div>
+        <div class="wishList">
+          <img
+            src="./assets/icons/icons8-heart-100.png"
+            class="nav-icons"
+            alt=""
+          />
+          <div class="counter">2</div>
+        </div>
+        <div class="cart">
+          <img
+            src="./assets/icons/icons8-shopping-bag-100.png"
+            class="nav-icons"
+            alt=""
+          />
+          <div class="counter1">1</div>
+        </div>
+      </div>
+      <div class="menuBar">
+        <img src="./assets/icons/icons8-menu-bar-100.png" alt="" />
+      </div>
+    </nav>
+    <div class="nav-sm shadow-sm">
+      <div class="cancel">
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+    </div>
+    <div class="offcanvas-overlay"></div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 col-sm-12 p-0 bg-1">
+          <div class="overlayImg">
+            <div class="overlayImageHeader">women's fashion</div>
+            <div class="overlayContent">
+              Sitamet, consectetur adipiscing elit, sed do eiusmod tempor
+              incidid-unt labore edolore magna aliquapendisse ultrices gravida.
+            </div>
+            <div class="ShopNowButton mt-4">shop now</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 section-1">
+          <div class="right-section1 p-0">
+            <div class="bg-2">
+              <div class="overlay">
+                <div class="overlayImageHeader">Men's fashion</div>
+                <div class="overlayContent">358 items</div>
+                <div class="ShopNowButton mt-4">shop now</div>
+              </div>
+            </div>
+            <div class="bg-3 mt-md-3 mt-sm-0">
+              <div class="overlay">
+                <div class="overlayImageHeader">Children's fashion</div>
+                <div class="overlayContent">263 items</div>
+                <div class="ShopNowButton mt-4">shop now</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- new product  -->
+
+    <div class="product-container">
+      <div
+        class="product-header d-md-flex d-sm-block align-items-center justify-content-between"
+      >
+        <div class="name">new product</div>
+        <div class="category">
+          <ul>
+            <li class="activecat">All</li>
+            <li>Women</li>
+            <li>Men</li>
+            <li>Accessories</li>
+          </ul>
+        </div>
+      </div>
+      <div class="product-card-container">
+        <div class="product-card">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1689371952452-c88c72464115?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Product Image"
+            class="product-image"
+          />
+          <p class="product-name">Buttons tweed blazer</p>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="product-price">$99.99</p>
+          <div class="product-options">
+            <button class="btn add-to-cart">
+              <img src="./assets/icons/icons8-shopping-bag-100.png" alt="" />
+            </button>
+            <button class="btn add-to-wishlist">
+              <img src="./assets/icons/icons8-heart-100.png" alt="" />
+            </button>
+            <button class="btn view-details">
+              <i
+                class="fa-solid fa-up-right-and-down-left-from-center text-dark fs-6"
+              ></i>
+            </button>
+          </div>
+          <div class="availability">out of stock</div>
+        </div>
+        <div class="product-card">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1658506787944-7939ed84aaf8?q=80&w=1938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Product Image"
+            class="product-image"
+          />
+          <p class="product-name">Men Tanked blazer</p>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="product-price">$95.99</p>
+          <div class="product-options">
+            <button class="btn add-to-cart">
+              <img src="./assets/icons/icons8-shopping-bag-100.png" alt="" />
+            </button>
+            <button class="btn add-to-wishlist">
+              <img src="./assets/icons/icons8-heart-100.png" alt="" />
+            </button>
+            <button class="btn view-details">
+              <i
+                class="fa-solid fa-up-right-and-down-left-from-center text-dark fs-6"
+              ></i>
+            </button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1689371957762-b5f8d601933e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D"
+            alt="Product Image"
+            class="product-image"
+          />
+          <p class="product-name">white tweed blazer</p>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="product-price">$109.99</p>
+          <div class="product-options">
+            <button class="btn add-to-cart">
+              <img src="./assets/icons/icons8-shopping-bag-100.png" alt="" />
+            </button>
+            <button class="btn add-to-wishlist">
+              <img src="./assets/icons/icons8-heart-100.png" alt="" />
+            </button>
+            <button class="btn view-details">
+              <i
+                class="fa-solid fa-up-right-and-down-left-from-center text-dark fs-6"
+              ></i>
+            </button>
+          </div>
+          <div class="availability-new">new</div>
+        </div>
+        <div class="product-card">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1693242804074-20a78966f4e6?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Product Image"
+            class="product-image"
+          />
+          <p class="product-name">child teal up & down</p>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="product-price">$97.99</p>
+          <div class="product-options">
+            <button class="btn add-to-cart">
+              <img src="./assets/icons/icons8-shopping-bag-100.png" alt="" />
+            </button>
+            <button class="btn add-to-wishlist">
+              <img src="./assets/icons/icons8-heart-100.png" alt="" />
+            </button>
+            <button class="btn view-details">
+              <i
+                class="fa-solid fa-up-right-and-down-left-from-center text-dark fs-6"
+              ></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card-container">
+        <div class="product-card">
+          <img
+            src="https://images.unsplash.com/photo-1529776292731-c2246c65df5a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Product Image"
+            class="product-image"
+          />
+          <p class="product-name">Buttons black blazer</p>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="product-price">$19.99</p>
+          <div class="product-options">
+            <button class="btn add-to-cart">
+              <img src="./assets/icons/icons8-shopping-bag-100.png" alt="" />
+            </button>
+            <button class="btn add-to-wishlist">
+              <img src="./assets/icons/icons8-heart-100.png" alt="" />
+            </button>
+            <button class="btn view-details">
+              <i
+                class="fa-solid fa-up-right-and-down-left-from-center text-dark fs-6"
+              ></i>
+            </button>
+          </div>
+          <div class="availability-sale">sale</div>
+        </div>
+        <div class="product-card">
+          <img
+            src="https://images.unsplash.com/photo-1532074662130-17f5486532b0?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Product Image"
+            class="product-image"
+          />
+          <p class="product-name">Men blazer</p>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="product-price">$106.99</p>
+          <div class="product-options">
+            <button class="btn add-to-cart">
+              <img src="./assets/icons/icons8-shopping-bag-100.png" alt="" />
+            </button>
+            <button class="btn add-to-wishlist">
+              <img src="./assets/icons/icons8-heart-100.png" alt="" />
+            </button>
+            <button class="btn view-details">
+              <i
+                class="fa-solid fa-up-right-and-down-left-from-center text-dark fs-6"
+              ></i>
+            </button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img
+            src="https://images.unsplash.com/photo-1720072480777-a28572abab25?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Product Image"
+            class="product-image"
+          />
+          <p class="product-name">jacket for women</p>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="product-price">$109.99</p>
+          <div class="product-options">
+            <button class="btn add-to-cart">
+              <img src="./assets/icons/icons8-shopping-bag-100.png" alt="" />
+            </button>
+            <button class="btn add-to-wishlist">
+              <img src="./assets/icons/icons8-heart-100.png" alt="" />
+            </button>
+            <button class="btn view-details">
+              <i
+                class="fa-solid fa-up-right-and-down-left-from-center text-dark fs-6"
+              ></i>
+            </button>
+          </div>
+          <div class="availability-sale">Sale</div>
+        </div>
+        <div class="product-card">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1672239496593-f51cdc01c0f8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Product Image"
+            class="product-image"
+          />
+          <p class="product-name">jacket for men</p>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="product-price">$99.99</p>
+          <div class="product-options">
+            <button class="btn add-to-cart">
+              <img src="./assets/icons/icons8-shopping-bag-100.png" alt="" />
+            </button>
+            <button class="btn add-to-wishlist">
+              <img src="./assets/icons/icons8-heart-100.png" alt="" />
+            </button>
+            <button class="btn view-details">
+              <i
+                class="fa-solid fa-up-right-and-down-left-from-center text-dark fs-6"
+              ></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- fashion banner  -->
+
+      <div class="fashion-banner">
+        <div class="overlay">
+          <div class="carousel-container1">
+            <div class="carousel1">
+              <div class="carousel-item1 active">
+                <div class="carousel-itm-header">the chloe collection</div>
+                <div class="carousel-itm-content">project jacket</div>
+                <div class="carousel-footer">shop now</div>
+              </div>
+              <div class="carousel-item1 active">
+                <div class="carousel-itm-header">the chloe collection</div>
+                <div class="carousel-itm-content">project jacket</div>
+                <div class="carousel-footer">shop now</div>
+              </div>
+              <div class="carousel-item1 active">
+                <div class="carousel-itm-header">the chloe collection</div>
+                <div class="carousel-itm-content">project jacket</div>
+                <div class="carousel-footer">shop now</div>
+              </div>
+            </div>
+            <div class="carousel-dots1">
+              <span class="dot active" data-index="0"></span>
+              <span class="dot" data-index="1"></span>
+              <span class="dot" data-index="2"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- back to top -->
+    <button id="backToTop" title="Back to Top">
+      <img src="./assets/icons/icons8-double-up-100.png" width="20" alt="" />
+    </button>
+
+    <!-- trending Products  -->
+
+    <section>
+      <div class="container-fluid p-md-5 p-sm-3 mt-5">
+        <div class="row">
+          <div class="col-md-4 col-sm-12">
+            <div class="type-head mt-4">best seller</div>
+            <div class="type-container">
+              <div class="type-content">
+                <div>
+                  <img
+                    src="https://preview.colorlib.com/theme/ashion/img/trend/ht-1.jpg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <div class="name">hand bag</div>
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price">$40</div>
+                </div>
+              </div>
+              <div class="type-content">
+                <div>
+                  <img
+                    src="https://preview.colorlib.com/theme/ashion/img/trend/ht-2.jpg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <div class="name">ear ring</div>
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price">$50</div>
+                </div>
+              </div>
+              <div class="type-content">
+                <div>
+                  <img
+                    src="https://preview.colorlib.com/theme/ashion/img/trend/ht-3.jpg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <div class="name">cotton shirt</div>
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price">$40</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <div class="type-head mt-4">features</div>
+            <div class="type-container">
+              <div class="type-content">
+                <div>
+                  <img
+                    src="https://preview.colorlib.com/theme/ashion/img/trend/bs-1.jpg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <div class="name">jeans</div>
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price">$40</div>
+                </div>
+              </div>
+              <div class="type-content">
+                <div>
+                  <img
+                    src="https://preview.colorlib.com/theme/ashion/img/trend/bs-2.jpg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <div class="name">brief case</div>
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price">$30</div>
+                </div>
+              </div>
+              <div class="type-content">
+                <div>
+                  <img
+                    src="https://preview.colorlib.com/theme/ashion/img/trend/bs-3.jpg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <div class="name">round leather bag</div>
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price">$70</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <div class="type-head mt-4">hot trend</div>
+            <div class="type-container">
+              <div class="type-content">
+                <div>
+                  <img
+                    src="https://preview.colorlib.com/theme/ashion/img/trend/f-1.jpg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <div class="name">bow wrap skirt</div>
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price">$40</div>
+                </div>
+              </div>
+              <div class="type-content">
+                <div>
+                  <img
+                    src="https://preview.colorlib.com/theme/ashion/img/trend/f-2.jpg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <div class="name">metalic ear ring</div>
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price">$70</div>
+                </div>
+              </div>
+              <div class="type-content">
+                <div>
+                  <img
+                    src="https://preview.colorlib.com/theme/ashion/img/trend/f-3.jpg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <div class="name">flap cross body bag</div>
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price">$90</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- summer sale  -->
+    <div class="row w-100 p-md-5 p-sm-0">
+      <div class="col-lg-6 p-0">
+        <div class="discount__pic">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1708110920881-635419c3411f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="col-lg-6 p-0">
+        <div class="discount__text">
+          <div class="discount__text__title">
+            <span>Discount</span>
+            <h2>Summer 2019</h2>
+            <h5><span>Sale</span><span class="span2">50%</span></h5>
+          </div>
+          <div class="discount__countdown" id="countdown-time">
+            <div class="countdown__item">
+              <span id="days">30</span>
+              <p>Day</p>
+            </div>
+            <div class="countdown__item">
+              <span id="hours">14</span>
+              <p>Hour</p>
+            </div>
+            <div class="countdown__item">
+              <span id="minutes">43</span>
+              <p>Min</p>
+            </div>
+            <div class="countdown__item">
+              <span id="seconds">15</span>
+              <p>Sec</p>
+            </div>
+          </div>
+
+          <a href="#">Shop now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="categories-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div
+              class="single-cat mb-50 wow fadeInUp text-center"
+              data-wow-duration="1s"
+              data-wow-delay=".2s"
+              style="
+                visibility: visible;
+                animation-duration: 1s;
+                animation-delay: 0.2s;
+                animation-name: fadeInUp;
+              "
+            >
+              <div class="cat-icon">
+                <img
+                  src="https://preview.colorlib.com/theme/capitalshop/assets/img/icon/services1.svg"
+                  alt=""
+                />
+              </div>
+              <div class="cat-cap">
+                <h5>Fast &amp; Free Delivery</h5>
+                <p>Free delivery on all orders</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div
+              class="single-cat mb-50 wow fadeInUp text-center"
+              data-wow-duration="1s"
+              data-wow-delay=".2s"
+              style="
+                visibility: visible;
+                animation-duration: 1s;
+                animation-delay: 0.2s;
+                animation-name: fadeInUp;
+              "
+            >
+              <div class="cat-icon">
+                <img
+                  src="https://preview.colorlib.com/theme/capitalshop/assets/img/icon/services2.svg"
+                  alt=""
+                />
+              </div>
+              <div class="cat-cap">
+                <h5>Secure Payment</h5>
+                <p>Free delivery on all orders</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div
+              class="single-cat mb-50 wow fadeInUp text-center"
+              data-wow-duration="1s"
+              data-wow-delay=".4s"
+              style="
+                visibility: visible;
+                animation-duration: 1s;
+                animation-delay: 0.4s;
+                animation-name: fadeInUp;
+              "
+            >
+              <div class="cat-icon">
+                <img
+                  src="https://preview.colorlib.com/theme/capitalshop/assets/img/icon/services3.svg"
+                  alt=""
+                />
+              </div>
+              <div class="cat-cap">
+                <h5>Money Back Guarantee</h5>
+                <p>Free delivery on all orders</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div
+              class="single-cat mb-50 wow fadeInUp text-center"
+              data-wow-duration="1s"
+              data-wow-delay=".5s"
+              style="
+                visibility: visible;
+                animation-duration: 1s;
+                animation-delay: 0.5s;
+                animation-name: fadeInUp;
+              "
+            >
+              <div class="cat-icon">
+                <img
+                  src="https://preview.colorlib.com/theme/capitalshop/assets/img/icon/services4.svg"
+                  alt=""
+                />
+              </div>
+              <div class="cat-cap">
+                <h5>Online Support</h5>
+                <p>Free delivery on all orders</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer  -->
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4 col-sm-12">
+            <div>
+              <img
+                src="https://preview.colorlib.com/theme/ashion/img/logo.png"
+                alt=""
+              />
+            </div>
+            <div class="footer-cont">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+              rerum aperiam voluptate non veritatis. Et commodi temporibus
+              cupiditate eum fugiat?
+            </div>
+            <div class="payment-method d-flex gap-1 mt-4">
+              <img
+                src="https://preview.colorlib.com/theme/ashion/img/payment/payment-1.png"
+                alt=""
+              />
+              <img
+                src="https://preview.colorlib.com/theme/ashion/img/payment/payment-2.png"
+                alt=""
+              />
+              <img
+                src="https://preview.colorlib.com/theme/ashion/img/payment/payment-3.png"
+                alt=""
+              />
+              <img
+                src="https://preview.colorlib.com/theme/ashion/img/payment/payment-4.png"
+                alt=""
+              />
+              <img
+                src="https://preview.colorlib.com/theme/ashion/img/payment/payment-5.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-12">
+            <div class="footer-head mt-4">quick link</div>
+            <div class="links-cont">
+              <div class="link-itm">about</div>
+              <div class="link-itm">blog</div>
+              <div class="link-itm">contact</div>
+              <div class="link-itm">FAQ</div>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-12">
+            <div class="footer-head mt-4">Account</div>
+            <div class="links-cont">
+              <div class="link-itm">my account</div>
+              <div class="link-itm">cart</div>
+              <div class="link-itm">order tracking</div>
+              <div class="link-itm">wishlist</div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <div class="footer-head mt-4">Account</div>
+            <div class="input-container">
+              <input type="text" placeholder="Email" />
+              <button class="sub">subscribe</button>
+            </div>
+            <div class="footer-icons mt-3 opacity-75 d-flex gap-3">
+              <div>
+                <i class="fa-brands fa-facebook"></i>
+              </div>
+              <div>
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+              <div>
+                <i class="fa-brands fa-twitter"></i>
+              </div>
+              <div>
+                <i class="fa-brands fa-linkedin-in"></i>
+              </div>
+              <div>
+                <i class="fa-brands fa-youtube"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="line">
+          <hr />
+          <div class="line-text">
+            Copyright © 2025 All rights reserved | This template is made with ❤
+            by Horbah's tech
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

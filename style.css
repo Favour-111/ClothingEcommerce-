@@ -301,12 +301,15 @@ nav {
 }
 /* Product Card */
 .product-card-container {
-  padding: 0 70px;
-  display: flex;
-  align-items: center;
+  padding: 0 20px; /* Keeps some spacing around the container */
+  width: 100% !important;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 0; /* No gap between grid items */
+
   .product-card {
     position: relative;
-    width: 300px;
+    width: 100%;
     padding: 15px;
     background: #fff;
     border-radius: 10px;
@@ -687,7 +690,6 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
   .countdown__item {
     margin-bottom: 15px;
     display: flex;
@@ -935,7 +937,7 @@ footer {
     }
   }
   .bg-3 {
-    height: 260px;
+    height: 280px !important;
   }
   footer {
     padding: 10px;
@@ -944,61 +946,42 @@ footer {
     width: 100%;
     height: 100%;
   }
-}
-
-@media screen and (max-width: 1010px) {
-  .product-card-container {
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    .product-card {
-      position: relative;
-      width: 300px;
-      padding: 15px;
-      background: #fff;
-      border-radius: 10px;
-      overflow: hidden;
-      text-align: center;
-      transition: transform 0.3s ease;
-    }
+  .discount__countdown {
+    gap: 30px;
   }
 }
-@media screen and (max-width: 740px) {
-  .product-card-container {
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    .product-card {
-      position: relative;
-      width: 250px;
-      padding: 15px;
-      background: #fff;
-      border-radius: 10px;
-      overflow: hidden;
-      text-align: center;
-      transition: transform 0.3s ease;
-    }
+@media screen and (max-width: 532px) {
+  .product-image {
+    width: 100%;
+    height: 300px !important;
+    margin-bottom: 10px;
   }
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 420px) {
   .product-card-container {
-    padding: 0 0px;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    .product-card {
-      position: relative;
-      width: 150px;
-      height: 150px;
-      padding: 15px;
-      background: #fff;
-      border-radius: 10px;
-      overflow: hidden;
-      text-align: center;
-      transition: transform 0.3s ease;
-      .product-image {
-        width: 100%;
-      }
-    }
+    padding: 0 10px; /* Keeps some spacing around the container */
+    width: 100% !important;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 0; /* No gap between grid items */
+  }
+  .product-image {
+    width: 100% !important;
+    height: 250px !important;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 399px) {
+  .product-card-container {
+    padding: 0 10px; /* Keeps some spacing around the container */
+    width: 100% !important;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 0; /* No gap between grid items */
+  }
+  .product-image {
+    width: 100% !important;
+    height: 230px !important;
+    margin-bottom: 10px;
   }
 }

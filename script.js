@@ -93,7 +93,7 @@ updateCountdown();
 const menuBar = document.querySelector(".menuBar");
 const navBar = document.querySelector(".nav-sm");
 const offCanvas = document.querySelector(".offcanvas-overlay");
-
+const cancel = document.querySelector(".cancel");
 menuBar.addEventListener("click", () => {
   navBar.classList.toggle("active");
   offCanvas.classList.toggle("active-canvas");
@@ -101,6 +101,10 @@ menuBar.addEventListener("click", () => {
 
 // Close overlay and menu when clicking outside
 offCanvas.addEventListener("click", () => {
+  navBar.classList.remove("active");
+  offCanvas.classList.remove("active-canvas");
+});
+cancel.addEventListener("click", () => {
   navBar.classList.remove("active");
   offCanvas.classList.remove("active-canvas");
 });

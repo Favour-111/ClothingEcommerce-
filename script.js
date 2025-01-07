@@ -108,3 +108,27 @@ cancel.addEventListener("click", () => {
   navBar.classList.remove("active");
   offCanvas.classList.remove("active-canvas");
 });
+
+//dropdown
+const dropdown = document.querySelector("#dropdown");
+const sublist = document.querySelector(".sub-list");
+
+dropdown.addEventListener("mouseover", () => {
+  sublist.classList.add("sub-list-open");
+});
+
+dropdown.addEventListener("mouseout", () => {
+  sublist.classList.remove("sub-list-open");
+});
+const dropdown2 = document.querySelector("#dropdown2");
+const sublist2 = document.querySelector(".sub-list2");
+
+dropdown2.addEventListener("mouseover", () => {
+  sublist2.classList.add("sub-list-open2");
+});
+
+dropdown2.addEventListener("mouseout", () => {
+  sublist2.classList.remove("sub-list-open2");
+});
+
+// JavaScript for form validation and password toggle
